@@ -1,0 +1,271 @@
+{
+  "places": [
+  {
+  "id": 1,
+  "title": "Noor Mahal",
+  "short": "Royal palace of Bahawalpur",
+  "description": "Noor Mahal is one of the most famous historical landmarks of Bahawalpur. Built in 1875 by Nawab Sadiq Muhammad Khan IV, this magnificent palace is known for its stunning Italian-inspired architecture and royal heritage. The palace features beautiful domes, grand halls, elegant balconies, and intricate interior decorations that reflect the luxurious lifestyle of the Nawabs of Bahawalpur. Today, Noor Mahal serves as a popular tourist attraction where visitors can explore royal furniture, historical artifacts, antique weapons, and photographs from the princely era. Its impressive design, rich history, and cultural significance make it one of the most visited and admired heritage sites in Pakistan.",
+  "image": "images/places/noor-mahal.jpg",
+  "map": "https://www.google.com/maps?q=Noor+Mahal+Bahawalpur&output=embed"
+},
+     {
+  "id": 2,
+  "title": "Derawar Fort",
+  "short": "Historic desert fortress",
+  "description": "Derawar Fort is a magnificent historic fortress located in the heart of the Cholistan Desert near Bahawalpur. Originally built in the 9th century by the Rajput ruler Rai Jajja Bhati and later renovated by Nawab Sadeq Muhammad Khan in 1733, the fort stands as a symbol of the rich history and cultural heritage of the region. Its massive square structure features 40 towering bastions that rise nearly 30 meters high and can be seen from miles away across the desert. The fort once served as an important military stronghold, protecting trade routes and water resources in the harsh desert landscape. Nearby attractions include the beautiful Abbasi Mosque and the royal graveyard of the Nawabs of Bahawalpur. Today, Derawar Fort remains one of Pakistan’s most iconic historical landmarks, attracting tourists, photographers, and history enthusiasts from around the world with its breathtaking architecture and majestic desert surroundings.",
+  "image": "images/places/derawar-fort.jpg",
+  "map": "https://www.google.com/maps?q=Derawar+Fort+Bahawalpur&output=embed"
+},
+    {
+  "id": 3,
+  "title": "Gulzar Mahal",
+  "short": "Elegant royal residence",
+  "description": "Gulzar Mahal is a beautiful historic palace located in Bahawalpur and was built between 1906 and 1909 during the reign of Nawab Sadiq Muhammad Khan V. The palace was specially designed as a residence for the women of the royal family and reflects the luxurious lifestyle of the former Bahawalpur State. Surrounded by lush gardens and situated within the famous Bahawalgarh Palace Complex, Gulzar Mahal showcases a stunning blend of European, Mughal, and Indo-Islamic architectural styles. Its elegant arches, spacious verandas, decorative interiors, and artistic design make it one of the most attractive royal buildings in the city. Although the palace is not generally open to the public today, it remains an important symbol of Bahawalpur’s royal heritage and architectural beauty.",
+  "image": "images/places/gulzar-mahal.jpg",
+  "map": "https://www.google.com/maps?q=Gulzar+Mahal+Bahawalpur&output=embed"
+},
+    {
+  "id": 4,
+  "title": "Bahawalpur Museum",
+  "short": "Cultural and historical museum",
+  "description": "Bahawalpur Museum is one of the most important cultural attractions in Bahawalpur, established in 1976 to preserve and showcase the rich history, art, and heritage of the region. The museum features multiple galleries containing archaeological discoveries, ancient coins, Islamic manuscripts, traditional textiles, historical photographs, weapons, paintings, and artifacts from the former Bahawalpur State. Visitors can explore exhibits related to the Pakistan Movement, Cholistan Desert culture, local traditions, and the royal history of the Nawabs of Bahawalpur. The museum provides a fascinating journey through centuries of regional history and serves as an educational destination for students, researchers, tourists, and history enthusiasts.",
+  "image": "images/places/museum.jpg",
+  "map": "https://www.google.com/maps?q=Bahawalpur+Museum&output=embed"
+},
+    {
+  "id": 5,
+  "title": "Farid Gate",
+  "short": "Historic gateway of Bahawalpur",
+  "description": "Farid Gate is one of the most iconic landmarks and historic entrances of old Bahawalpur city. Named after the famous Sufi poet Khwaja Ghulam Farid, the gate represents the cultural identity and historical significance of the region. Its distinctive architectural design, decorative structure, and central location make it a popular meeting point and tourist attraction. Over the years, Farid Gate has become a symbol of Bahawalpur’s heritage and serves as a reminder of the city's rich past. The surrounding area is filled with markets, traditional shops, and local street life, allowing visitors to experience the vibrant culture and daily life of Bahawalpur while enjoying one of its most recognizable historical monuments.",
+  "image": "images/places/farid-gate.jpg",
+  "map": "https://www.google.com/maps?q=Farid+Gate+Bahawalpur&output=embed"
+},
+    {
+  "id": 6,
+  "title": "Darbar Mahal",
+  "short": "Magnificent royal palace",
+  "description": "Darbar Mahal is one of the most impressive royal palaces in Bahawalpur, built in 1905 by Nawab Bahawal Khan V. The palace was constructed for one of the Nawab's wives and is renowned for its magnificent architecture, grand halls, decorative balconies, and beautiful domes. Combining Mughal and European architectural influences, Darbar Mahal reflects the elegance and luxury of the former Bahawalpur State. The palace is surrounded by lush gardens and historic buildings, creating a stunning royal complex. Although access to the interior is restricted, its majestic exterior continues to attract visitors, photographers, and history enthusiasts who admire its beauty and historical significance.",
+  "image": "images/places/darbar-mahal.jpg",
+  "map": "https://www.google.com/maps?q=Darbar+Mahal+Bahawalpur&output=embed"
+},
+    {
+  "id": 7,
+  "title": "Lal Suhanra National Park",
+  "short": "Wildlife and nature reserve",
+  "description": "Lal Suhanra National Park is one of the largest national parks in South Asia and a major natural attraction near Bahawalpur. Established in 1972, the park covers a vast area of desert, forest, and wetland ecosystems, making it home to a diverse range of wildlife and plant species. Visitors can observe animals such as deer, nilgai, blackbucks, wild boars, and numerous species of birds in their natural habitat. The park also features a beautiful lake, picnic areas, and recreational facilities that make it a popular destination for families, nature lovers, and wildlife enthusiasts. Its unique combination of natural beauty and biodiversity makes Lal Suhanra an important conservation area in Pakistan.",
+  "image": "images/places/lal-suhanra.jpg",
+  "map": "https://www.google.com/maps?q=Lal+Suhanra+National+Park&output=embed"
+},
+    {
+  "id": 8,
+  "title": "Cholistan Desert",
+  "short": "Vast golden desert landscape",
+  "description": "The Cholistan Desert is a vast and breathtaking desert region located in southern Punjab near Bahawalpur. Spanning over 26,000 square kilometers, it is known for its endless golden sand dunes, rich cultural traditions, and historical significance. The desert is home to nomadic communities who maintain a unique lifestyle and preserve centuries-old customs. Cholistan is famous for the annual Cholistan Jeep Rally, which attracts adventure seekers and motorsport enthusiasts from across the country. Visitors can explore historic sites such as Derawar Fort, experience traditional desert culture, enjoy camel rides, and witness spectacular sunsets over the sand dunes. The desert offers a unique blend of natural beauty, adventure, and heritage, making it one of Pakistan’s most remarkable tourist destinations.",
+  "image": "images/places/cholistan-desert.jpg",
+  "map": "https://www.google.com/maps?q=Cholistan+Desert+Bahawalpur&output=embed"
+}
+  ],
+
+  "foods": [
+    {
+  "id": 1,
+  "title": "Sajji",
+  "short": "Traditional Balochi roasted meat",
+  "description": "Sajji is one of the most famous traditional dishes of Pakistan, particularly popular in Balochistan and Bahawalpur. It is prepared by marinating a whole chicken or lamb with simple spices and salt before being slowly roasted over an open fire. The slow-cooking process gives the meat a tender texture and a rich smoky flavor. Sajji is often served with rice or naan and is loved for its unique taste and authentic preparation method. It remains a favorite choice for family gatherings, celebrations, and food lovers looking to experience traditional Pakistani cuisine.",
+  "image": "images/foods/sajji.jpg",
+  "map": "https://www.google.com/maps?q=Balochi+Sajji+House+Bahawalpur&output=embed"
+},
+    {
+  "id": 2,
+  "title": "Biryani",
+  "short": "Aromatic rice and meat dish",
+  "description": "Biryani is a famous Pakistani rice dish made with fragrant basmati rice, tender meat, and aromatic spices. Its rich flavor, colorful appearance, and delicious taste make it a favorite choice for family gatherings, celebrations, and special occasions across the country.",
+  "image": "images/foods/biryani.jpg",
+  "map": "https://www.google.com/maps?q=Four+Seasons+Restaurant+Bahawalpur&output=embed"  
+},
+    {
+  "id": 3,
+  "title": "Nihari",
+  "short": "Slow-cooked spicy meat stew",
+  "description": "Nihari is a rich and flavorful traditional Pakistani dish made by slow-cooking beef or mutton with a blend of aromatic spices for several hours. The long cooking process creates a thick, hearty gravy and extremely tender meat. Traditionally enjoyed as a breakfast meal, Nihari is often served with naan, ginger slices, green chilies, and fresh coriander. Its deep flavor and comforting texture have made it one of the most iconic dishes in Pakistani cuisine, enjoyed by food lovers across the country.",
+  "image": "images/foods/nihari.jpg",
+  "map": "https://www.google.com/maps?q=Kebabish+Continental+Bahawalpur&output=embed"
+},
+    {
+  "id": 4,
+  "title": "Halwa Puri",
+  "short": "Classic Pakistani breakfast",
+  "description": "Halwa Puri is a traditional Pakistani breakfast that combines crispy deep-fried puris, sweet semolina halwa, and flavorful chickpea curry. This delicious combination offers a perfect balance of sweet and savory flavors, making it a favorite breakfast choice across Pakistan. Often served with pickles, yogurt, and potato curry, Halwa Puri is especially popular on weekends, public holidays, and festive occasions. Its rich taste and cultural significance make it one of the most cherished breakfast dishes in Pakistani cuisine.",
+  "image": "images/foods/halwa-puri.jpg",
+  "map": "https://www.google.com/maps?q=Baba+Naseer+Choley+Wala+Bahawalpur&output=embed"
+},
+    {
+  "id": 5,
+  "title": "Chicken Karahi",
+  "short": "Traditional Pakistani chicken curry",
+  "description": "Chicken Karahi is one of the most popular dishes in Pakistan, known for its rich flavor and aromatic spices. It is prepared by cooking tender chicken pieces with fresh tomatoes, garlic, ginger, green chilies, and a blend of traditional spices in a wok-like pan called a karahi. The dish is famous for its thick gravy, vibrant color, and delicious taste. Usually served with naan or roti, Chicken Karahi is a favorite choice for family dinners, celebrations, and gatherings, offering an authentic taste of Pakistani cuisine.",
+  "image": "images/foods/karahi.jpg",
+  "map": "https://www.google.com/maps?q=Kebabish+Grill+Bahawalpur&output=embed"
+}
+,
+   {
+  "id": 6,
+  "title": "Daal Chawal",
+  "short": "Simple and comforting meal",
+  "description": "Daal Chawal is a classic Pakistani comfort food consisting of lentil curry served with steamed rice. The dish is highly nutritious, affordable, and loved by people of all ages. Prepared with lentils, onions, tomatoes, and traditional spices, daal offers a rich flavor while rice provides a perfect complement. Often served with salad, yogurt, or pickles, Daal Chawal is a staple meal in many households and is appreciated for its simplicity, health benefits, and satisfying taste.",
+  "image": "images/foods/daal-chawal.jpg",
+  "map": "https://www.google.com/maps?q=Desi+Dhaba+Bahawalpur&output=embed"
+},
+    {
+  "id": 7,
+  "title": "Lassi",
+  "short": "Refreshing yogurt-based drink",
+  "description": "Lassi is a traditional yogurt-based drink that is widely enjoyed across Pakistan, especially during hot summer days. Made from fresh yogurt, water, and sugar or salt, lassi is known for its refreshing taste and cooling effect. Sweet lassi is often flavored with cream or milk, while salty lassi provides a savory alternative. Rich in nutrients and probiotics, it is commonly served alongside traditional meals and is considered one of the most popular beverages in Pakistani culture.",
+  "image": "images/foods/lassi.jpg",
+  "map": "https://www.google.com/maps?q=Haji+Rasheed+Bahawalpur+Lassi&output=embed"
+},
+    {
+  "id": 8,
+  "title": "Falooda",
+  "short": "Popular sweet dessert drink",
+  "description": "Falooda is a delicious and refreshing dessert drink loved throughout Pakistan. It is made with milk, vermicelli noodles, basil seeds, flavored syrup, jelly, and ice cream, creating a unique combination of textures and flavors. Served chilled, Falooda is especially popular during the summer season and festive occasions. Its rich sweetness, colorful presentation, and creamy texture make it a favorite treat among children and adults alike, offering a delightful way to cool down and enjoy a traditional dessert.",
+  "image": "images/foods/faluda.jpg",
+  "map": "https://www.google.com/maps?q=Four+Seasons+Restaurant+Bahawalpur&output=embed"
+}
+  ],
+
+  "hotels": [
+    {
+      "id": 1,
+      "title": "Hotel One",
+      "short": "Modern and comfortable hotel",
+      "description": "Hotel One Bahawalpur is a well-known three-star hotel offering comfortable accommodation, modern facilities, and quality hospitality. Located in a convenient area of the city, the hotel provides well-furnished rooms, free Wi-Fi, conference facilities, and a variety of dining options. Its professional service, clean environment, and affordable rates make it a popular choice for business travelers, tourists, and families visiting Bahawalpur.",
+      "image": "images/hotels/hotel-one.jpg",
+      "map": "https://www.google.com/maps?q=Hotel+One+Bahawalpur&output=embed"
+    },
+    {
+      "id": 2,
+      "title": "Royal Mark Hotel",
+      "short": "Luxury stay in Bahawalpur",
+      "description": "Royal Mark Hotel is a popular hotel in Bahawalpur known for its elegant rooms, modern amenities, and excellent guest services. The hotel offers comfortable accommodation, quality dining facilities, meeting spaces, and a welcoming atmosphere for both business and leisure travelers. Its convenient location and professional hospitality make it a preferred choice for visitors seeking a relaxing and enjoyable stay in the city.",
+      "image": "images/hotels/royal-mark-hotel.jpg",
+      "map": "https://www.google.com/maps?q=Royal+Mark+Hotel+Bahawalpur&output=embed"
+    },
+    {
+  "id": 3,
+  "title": "Faletti Hotel",
+  "short": "Historic luxury hotel",
+  "description": "Faletti Hotel Bahawalpur offers comfortable rooms, quality dining, and modern facilities. It is known for its elegant atmosphere, professional service, and peaceful environment, making it a popular choice for tourists and business travelers.",
+  "image": "images/hotels/falettis-hotel.jpg",
+  "map": "https://www.google.com/maps?q=Faletti+Hotel+Bahawalpur&output=embed"
+},
+    {
+      "id": 4,
+      "title": "Lataska Hotel",
+      "short": "Comfortable stay in Bahawalpur",
+      "description": "Lataska Hotel Bahawalpur is a well-regarded hotel offering comfortable rooms, modern facilities, and friendly hospitality. It provides a peaceful environment for guests with clean accommodation, basic amenities, and convenient access to the city’s main areas. The hotel is suitable for families, tourists, and business travelers looking for an affordable and relaxing stay in Bahawalpur.",
+      "image": "images/hotels/lataska-hotel.jpg",
+      "map": "https://www.google.com/maps?q=Lataska+Hotel+Bahawalpur&output=embed"
+    },
+    {
+      "id": 5,
+      "title": "Motel Paradise Inn",
+      "short": "Budget-friendly motel",
+      "description": "Motel Paradise Inn Bahawalpur offers simple and comfortable accommodation for travelers. It provides clean rooms, basic facilities, and a peaceful environment at affordable rates. The motel is suitable for short stays, families, and travelers looking for a budget-friendly place in the city.",
+      "image": "images/hotels/motel-paradise-inn.jpg",
+      "map": "https://www.google.com/maps?q=Motel+Paradise+Inn+Bahawalpur&output=embed"
+    },
+    {
+      "id": 6,
+      "title": "Hotel State Residency",
+      "short": "Modern business hotel",
+      "description": "Hotel State Residency Bahawalpur is a modern hotel offering comfortable rooms and essential facilities for guests. It provides a clean environment, good hospitality, and convenient services for both business and leisure travelers. Its location makes it easy to access main areas of the city.",
+      "image": "images/hotels/hotel-state.jpg",
+      "map": "https://www.google.com/maps?q=Hotel+State+Residency+Bahawalpur&output=embed"
+    },
+    {
+      "id": 7,
+      "title": "Qatar Banquet Hall & Hotel",
+      "short": "Event and wedding hall",
+      "description": "Qatar Banquet Hall Bahawalpur is a popular venue for weddings, parties, and events. It offers a spacious hall, decoration services, catering options, and a comfortable environment for gatherings. The hall is known for hosting memorable events with good arrangements and service.",
+      "image": "images/hotels/qatar-hotel.jpg",
+      "map": "https://www.google.com/maps?q=Qatar+Banquet+Hall+%26+Hotel+Bahawalpur&output=embed"
+    },
+    {
+      "id": 8,
+      "title": "Arabian Lodges",
+      "short": "Comfortable lodge stay",
+      "description": "Arabian Lodges Bahawalpur provides affordable and comfortable lodging for visitors. It offers clean rooms, basic amenities, and a calm environment for guests. The lodge is suitable for families and travelers seeking a simple and peaceful place to stay in the city.",
+      "image": "images/hotels/arabian-lodges.jpg",
+      "map": "https://www.google.com/maps?q=Arabian+Lodges+Bahawalpur&output=embed"
+    }
+  ],
+
+  "restaurants": [
+    {
+      "id": 1,
+      "title": "Salt & Pepper",
+      "short": "Popular family restaurant",
+      "description": "Salt & Pepper Restaurant is a popular dining place known for its delicious Pakistani and continental food. It offers BBQ, karahi, fast food, and traditional dishes in a clean and family-friendly environment, making it a great spot for gatherings and casual meals.",
+      "image": "images/restaurants/salt-n-pepper.jpg",
+      "map": "https://www.google.com/maps?q=Salt+%26+Pepper+Bahawalpur&output=embed"
+    },
+    {
+      "id": 2,
+      "title": "BBQ Tonight",
+      "short": "Famous BBQ restaurant",
+      "description": "BBQ Tonight is a well-known restaurant offering a variety of delicious grilled and barbecued dishes. It is famous for its flavorful kebabs, tikka, and BBQ platters prepared with traditional spices and smoky taste. The restaurant provides a comfortable dining environment, making it a popular choice for families and friends who enjoy quality barbecue food.",
+      "image": "images/restaurants/bbq-tonight.webp",
+      "map": "https://www.google.com/maps?q=BBQ+Tonight+Bahawalpur&output=embed"
+    },
+    {
+      "id": 3,
+      "title": "Libra Valley Restaurant",
+      "short": "Peaceful dining and family spot",
+      "description": "Libra Valley is a popular restaurant and family hangout spot offering a variety of Pakistani and fast food dishes. It is known for its calm environment, good service, and tasty meals, making it a suitable place for family gatherings, dinners, and casual dining experiences.",
+      "image": "images/restaurants/libra-valley.webp",
+      "map": "https://www.google.com/maps?q=Libra+Valley+Restaurant+Bahawalpur&output=embed"
+    },
+    {
+      "id": 4,
+      "title": "Four Seasons",
+      "short": "Well-known multi-cuisine restaurant",
+      "description": "4 Seasons Restaurant is a popular dining place offering a wide range of Pakistani, Chinese, and fast food items. It is known for its quality taste, comfortable seating, and family-friendly atmosphere, making it a favorite choice for casual dining and celebrations.",
+      "image": "images/restaurants/four-seasons.jpg",
+      "map": "https://www.google.com/maps?q=Four+Seasons+Bahawalpur&output=embed"
+    },
+    {
+      "id": 5,
+      "title": "Money Heist Cafe",
+      "short": "Modern themed cafe",
+      "description": "Money Heist is a modern themed cafe offering fast food, snacks, and beverages in a stylish environment. It is popular among youngsters for its unique theme, comfortable seating, and casual hangout vibe, making it a good spot for friends and small gatherings.",
+      "image": "images/restaurants/money-heist.jpg",
+      "map": "https://www.google.com/maps?q=Money+Heist+Cafe+Bahawalpur&output=embed"
+    },
+    {
+      "id": 6,
+      "title": "Zarqoon Restaurant",
+      "short": "Family restaurant",
+      "description": "Zarqoon is a family restaurant known for its delicious Pakistani cuisine and comfortable dining environment. It offers a variety of dishes including BBQ, karahi, and fast food, making it a good choice for family meals and casual dining.",
+      "image": "images/restaurants/zarqoon.jpeg",
+      "map": "https://www.google.com/maps?q=Zarqoon+Restaurant+Bahawalpur&output=embed"
+    },
+    {
+      "id": 7,
+      "title": "Laviva Cafe",
+      "short": "Trendy cafe and hangout spot",
+      "description": "Laviva Cafe is a modern and stylish cafe offering coffee, snacks, and fast food items. It is popular among young people for its relaxing ambiance, good service, and trendy interior, making it an ideal place for friends to hang out and enjoy light meals.",
+      "image": "images/restaurants/laviva-cafe.jpeg",
+      "map": "https://www.google.com/maps?q=Laviva+Cafe+Bahawalpur&output=embed"
+    },
+    {
+      "id": 8,
+      "title": "El Canto Restaurant",
+      "short": "Elegant dining restaurant",
+      "description": "El Canto Restaurant offers a fine dining experience with a variety of Pakistani and continental dishes. It is known for its elegant atmosphere, quality food, and professional service, making it suitable for family dinners, celebrations, and special occasions.",
+      "image": "images/restaurants/el-canto.jpeg",
+      "map": "https://www.google.com/maps?q=El+Canto+Restaurant+Bahawalpur&output=embed"
+    }
+    
+  ]
+}

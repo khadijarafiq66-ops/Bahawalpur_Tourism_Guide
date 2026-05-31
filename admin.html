@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Royal Bahawalpur Admin Panel</title>
+
+<style>
+body{
+    font-family:poppins;
+    background:#111;
+    color:#fff;
+    padding:20px;
+}
+
+h1{
+    color:gold;
+}
+
+select, input, textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:none;
+    border-radius:5px;
+}
+
+button{
+    padding:10px 15px;
+    background:gold;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.card{
+    background:#222;
+    padding:10px;
+    margin:10px 0;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.delete{
+    background:red;
+    color:#fff;
+    border:none;
+    padding:5px 10px;
+    cursor:pointer;
+}
+
+.section-title{
+    color:gold;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Admin Panel (All Sections)</h1>
+
+<!-- CATEGORY SELECT -->
+<label>Select Category</label>
+<select id="category">
+    <option value="places">Places</option>
+    <option value="foods">Foods</option>
+    <option value="hotels">Hotels</option>
+    <option value="restaurants">Restaurants</option>
+</select>
+
+<!-- FORM -->
+<input type="text" id="title" placeholder="Title">
+<input type="text" id="short" placeholder="Short Description">
+<textarea id="description" placeholder="Full Description"></textarea>
+<input type="text" id="image" placeholder="Image URL">
+
+<button onclick="addItem()">Add Item</button>
+
+<!-- LIST -->
+<div id="list"></div>
+
+<script>
+
+const baseURL = "http://localhost:3001";
+
+/* LOAD DATA */
+function loadData(){
+    let cat = document.getElementById("category").value;
+
+    fetch(`${baseURL}/${cat}`)
+    .then(res => res.json())
+    .then(data => {
+        let list = document.getElementById("list");
+        list.innerHTML = "";
+
+        data.forEach(item => {
+            list.innerHTML += `
+            <div class="card">
+                <div>
+                    <b>${item.title}</b><br>
+                    <small>${item.short}</small>
+                </div>
+                <button class="delete" onclick="deleteItem(${item.id})">X</button>
+            </div>
+            `;
+        });
+    });
+}
+
+/* CATEGORY CHANGE */
+document.getElementById("category").addEventListener("change", loadData);
+
+/* ADD ITEM */
+function addItem(){
+    let cat = document.getElementById("category").value;
+
+    fetch(`${baseURL}/${cat}`, {
+        method:"POST",
+        headers:{
+            "Content-Type":"application/json"
+        },
+        body: JSON.stringify({
+            title: title.value,
+            short: short.value,
+            description: description.value,
+            image: image.value
+        })
+    }).then(() => {
+        loadData();
+        title.value="";
+        short.value="";
+        description.value="";
+        image.value="";
+    });
+}
+
+/* DELETE ITEM */
+function deleteItem(id){
+    let cat = document.getElementById("category").value;
+
+    fetch(`${baseURL}/${cat}/${id}`, {
+        method:"DELETE"
+    }).then(() => loadData());
+}
+
+/* INIT */
+loadData();
+
+</script>
+
+</body>
+</html>
