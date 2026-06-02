@@ -4,161 +4,8 @@
 <meta charset="UTF-8">
 <title>Royal Bahawalpur</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:poppins;
-}
-
-body{
-    background:#000;
-    color:#fff;
-}
-
-/* NAVBAR */
-.navbar{
-    position:fixed;
-    top:0;
-    width:100%;
-    display:flex;
-    justify-content:space-between;
-    padding:15px 30px;
-    background:rgba(0,0,0,0.8);
-    z-index:1000;
-}
-
-.logo{
-    color:gold;
-    font-size:20px;
-    font-weight:bold;
-}
-
-.nav-links{
-    display:flex;
-    gap:20px;
-}
-
-.nav-links a{
-    color:#fff;
-    text-decoration:none;
-}
-
-/* HERO */
-.hero{
-    height:100vh;
-    background:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    position:relative;
-}
-
-.hero::before{
-    content:"";
-    position:absolute;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,0.6);
-}
-
-.hero-content{
-    position:relative;
-}
-
-.hero h1{
-    font-size:50px;
-    color:gold;
-}
-
-/* SECTION TITLE */
-.section-title{
-    text-align:center;
-    margin:50px 0 20px;
-    color:gold;
-}
-
-/* GRID */
-.grid{
-    display:grid;
-    grid-template-columns:repeat(4, 1fr);
-    gap:20px;
-    padding:30px;
-}
-
-/* CARD */
-.card{
-    background:#111;
-    border-radius:10px;
-    overflow:hidden;
-    cursor:pointer;
-    transition:0.3s;
-}
-
-.card:hover{
-    transform:scale(1.05);
-}
-
-.card img{
-    width:100%;
-    height:170px;
-    object-fit:cover;
-}
-
-.card h3{
-    color:gold;
-    padding:10px;
-}
-
-.card p{
-    padding:0 10px 15px;
-    color:#ccc;
-}
-
-/* POPUP */
-.popup{
-    display:none;
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,0.8);
-    justify-content:center;
-    align-items:center;
-    z-index:2000;
-}
-
-.popup-content{
-    background:#111;
-    padding:20px;
-    width:80%;
-    max-width:500px;
-    border-radius:10px;
-}
-
-.close{
-    float:right;
-    font-size:25px;
-    cursor:pointer;
-    color:white;
-}
-
-.popup h2{
-    color:gold;
-}
-
-iframe{
-    border:0;
-    margin-top:15px;
-}
-</style>
-</head>
-
-<body>
 
 <!-- NAVBAR -->
 <div class="navbar">
@@ -175,6 +22,18 @@ iframe{
 <section class="hero">
     <div class="hero-content">
         <h1>Explore Royal Bahawalpur</h1>
+
+        <p>
+            Discover the royal heritage, historic landmarks,
+            traditional cuisine, luxury hotels, and vibrant
+            culture of Bahawalpur. Explore famous tourist
+            attractions, enjoy local foods, and experience
+            the beauty of the City of Nawabs.
+        </p>
+
+        <div class="hero-buttons">
+    <a href="#places" class="btn">Start Exploring →</a>
+</div>
     </div>
 </section>
 
@@ -216,7 +75,7 @@ function loadData(type){
 
         data.forEach(item => {
             container.innerHTML += `
-            <div class="card" onclick="openPopup('${item.title}','${item.description}','${item.map}')">
+<div class="card" onclick='openPopup(${JSON.stringify(item.title)}, ${JSON.stringify(item.description)}, ${JSON.stringify(item.map)})'>
                 <img src="${item.image || 'https://via.placeholder.com/400x300'}">
                 <h3>${item.title}</h3>
                 <p>${item.short || ''}</p>
@@ -247,6 +106,8 @@ function closePopup(){
     document.getElementById("popup").style.display = "none";
 }
 </script>
-
+<footer style="background:#111;padding:20px;text-align:center;color:#aaa;">
+    <p>© 2026 Royal Bahawalpur Tourism Guide | Developed by Khadija Rafiq</p>
+</footer>
 </body>
 </html>

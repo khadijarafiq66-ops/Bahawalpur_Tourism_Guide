@@ -59,10 +59,9 @@ button{
 
 <body>
 
-<h1>Admin Panel (All Sections)</h1>
+<h1>Admin Panel</h1>
 
-<!-- CATEGORY SELECT -->
-<label>Select Category</label>
+
 <select id="category">
     <option value="places">Places</option>
     <option value="foods">Foods</option>
@@ -82,72 +81,143 @@ button{
 <div id="list"></div>
 
 <script>
-
 const baseURL = "http://localhost:3001";
 
+let editId = null;
+
+/* INIT */
+document.addEventListener("DOMContentLoaded", () => {
+    loadData();
+
+    document.getElementById("category")
+    .addEventListener("change", loadData);
+
+    document.getElementById("submitBtn")
+    .addEventListener("click", addItem);
+});
+
 /* LOAD DATA */
-function loadData(){
-    let cat = document.getElementById("category").value;
+function loadData() {
+
+    const cat = document.getElementById("category").value;
 
     fetch(`${baseURL}/${cat}`)
     .then(res => res.json())
     .then(data => {
-        let list = document.getElementById("list");
+
+        const list = document.getElementById("list");
         list.innerHTML = "";
 
         data.forEach(item => {
-            list.innerHTML += `
-            <div class="card">
+
+            const card = document.createElement("div");
+            card.className = "card";
+
+            card.innerHTML = `
                 <div>
                     <b>${item.title}</b><br>
                     <small>${item.short}</small>
                 </div>
-                <button class="delete" onclick="deleteItem(${item.id})">X</button>
-            </div>
+
+                <div>
+                    <button class="edit-btn">✏️ Edit</button>
+                    <button class="delete-btn">🗑 Delete</button>
+                </div>
             `;
+
+            card.querySelector(".edit-btn")
+            .addEventListener("click", () => editItem(item.id));
+
+            card.querySelector(".delete-btn")
+            .addEventListener("click", () => deleteItem(item.id));
+
+            list.appendChild(card);
         });
     });
 }
 
-/* CATEGORY CHANGE */
-document.getElementById("category").addEventListener("change", loadData);
-
-/* ADD ITEM */
+/* ADD / UPDATE */
 function addItem(){
-    let cat = document.getElementById("category").value;
 
-    fetch(`${baseURL}/${cat}`, {
-        method:"POST",
-        headers:{
-            "Content-Type":"application/json"
-        },
-        body: JSON.stringify({
-            title: title.value,
-            short: short.value,
-            description: description.value,
-            image: image.value
+    const cat = document.getElementById("category").value;
+
+    const item = {
+        title: document.getElementById("title").value,
+        short: document.getElementById("short").value,
+        description: document.getElementById("description").value,
+        image: document.getElementById("image").value
+    };
+
+    if(editId){
+
+        fetch(`${baseURL}/${cat}/${editId}`,{
+            method:"PUT",
+            headers:{ "Content-Type":"application/json" },
+            body: JSON.stringify(item)
         })
-    }).then(() => {
-        loadData();
-        title.value="";
-        short.value="";
-        description.value="";
-        image.value="";
+        .then(() => {
+            alert("Updated Successfully");
+            editId = null;
+            document.getElementById("submitBtn").innerText = "Add Item";
+            clearForm();
+            loadData();
+        });
+
+    } else {
+
+        fetch(`${baseURL}/${cat}`,{
+            method:"POST",
+            headers:{ "Content-Type":"application/json" },
+            body: JSON.stringify(item)
+        })
+        .then(() => {
+            alert("Added Successfully");
+            clearForm();
+            loadData();
+        });
+    }
+}
+
+/* EDIT */
+function editItem(id){
+
+    const cat = document.getElementById("category").value;
+
+    fetch(`${baseURL}/${cat}/${id}`)
+    .then(res => res.json())
+    .then(item => {
+
+        document.getElementById("title").value = item.title;
+        document.getElementById("short").value = item.short;
+        document.getElementById("description").value = item.description;
+        document.getElementById("image").value = item.image;
+
+        editId = id;
+
+        document.getElementById("submitBtn").innerText = "Update Item";
     });
 }
 
-/* DELETE ITEM */
+/* DELETE */
 function deleteItem(id){
-    let cat = document.getElementById("category").value;
 
-    fetch(`${baseURL}/${cat}/${id}`, {
+    const cat = document.getElementById("category").value;
+
+    if(!confirm("Delete this item?")) return;
+
+    fetch(`${baseURL}/${cat}/${id}`,{
         method:"DELETE"
-    }).then(() => loadData());
+    })
+    .then(() => loadData());
 }
 
-/* INIT */
-loadData();
-
+/* CLEAR */
+function clearForm(){
+    document.getElementById("title").value = "";
+    document.getElementById("short").value = "";
+    document.getElementById("description").value = "";
+    document.getElementById("image").value = "";
+}
 </script>
 
 </body>
