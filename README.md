@@ -1,11 +1,16 @@
-# 🏛️ Royal Bahawalpur Tourism Project
+#  Royal Bahawalpur Tourism Project
 
 A web-based tourism guide project showcasing the beautiful heritage, food, hotels, and restaurants of Bahawalpur.  
 Built using HTML, CSS, JavaScript, and JSON Server (fake API).
 
 ---
 
-## 🌟 Features
+## Author
+-Khadija Rafiq
+-F24BDOCS1M01282
+-BSCS 4th Sem
+
+##  Features
 
 ✔ Home page with hero section  
 ✔ Dynamic cards for Places, Foods, Hotels, Restaurants  
@@ -46,7 +51,7 @@ Royal-Bahawalpur/
 
 ##  How to Run Project
 
-### 1️⃣ Install JSON Server
+## 1️⃣ Install JSON Server
 ```bash
 npm install -g json-server
 2️⃣ Start Server
@@ -81,6 +86,3 @@ DOM manipulation
 Frontend structure
 Git & GitHub workflow
 
-## Author
-Khadija Rafiq
-Computer Science Student 
